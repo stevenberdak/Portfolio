@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import Hero from '../components/hero'
+import Layout from '../components/layout'
 
 function Index() {
     return (
@@ -16,7 +17,9 @@ function Index() {
                     crossorigin="anonymous"
                 />
             </Head>
-            <Hero>Test</Hero>
+            <Layout>
+                <Hero>Test</Hero>
+            </Layout>
         </div>
     )
 }

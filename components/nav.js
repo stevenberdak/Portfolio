@@ -1,10 +1,13 @@
 import PropTypes from 'prop-types'
-import { Nav } from 'react-bootstrap'
 
-export default Nav(props) {
+export default function Nav(props) {
 
+    return (
+        <div className="bg-dark">
+        </div>
+    )
 }
 
 Nav.propTypes = {
-    
+
 }
