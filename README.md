@@ -5,5 +5,6 @@ My personal portfolio site to showcase my talent.
 This project uses: 
 
 <ul>
-<li>Test</li>
+  <li>NextJS</li>
+  <li>React Bootstrap</li>
 </ul>
